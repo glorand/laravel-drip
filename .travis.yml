@@ -10,7 +10,7 @@ before_script:
 
 script:
   - vendor/bin/phpunit --coverage-clover=coverage.xml
-  - composer stan
+  #- composer stan
   #- vendor/bin/phpstan analyse src --level=7
 
 after_success:
