@@ -1,0 +1,50 @@
+{
+    "name": "glorand/laravel-drip",
+    "description": "A Laravel wrapper for Drip's REST API v2.0",
+    "type": "laravel-package",
+    "keywords": [
+        "glorand",
+        "laravel-drip",
+        "drip",
+        "drip-php"
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.6.*|5.7.*",
+        "glorand/drip-php": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Glorand\\Drip\\Laravel\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Glorand\\Drip\\Laravel\\Tests\\": "tests"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lorand Gombos",
+            "email": "gombos.lorand@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Glorand\\Drip\\Laravel\\DripServiceProvider"
+            ],
+            "aliases": {
+                "Drip": "Glorand\\Drip\\Laravel\\Facades\\Drip"
+            }
+        }
+    }
+}
