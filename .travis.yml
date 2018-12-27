@@ -10,9 +10,4 @@ before_script:
 
 script:
   - vendor/bin/phpunit --coverage-clover=coverage.xml
-  #- composer stan
-  #- vendor/bin/phpstan analyse src --level=7
-
-after_success:
-#- wget https://scrutinizer-ci.com/ocular.phar
-#- php ocular.phar code-coverage:upload --format=php-clover build/logs/clover.xml
+  - composer stan

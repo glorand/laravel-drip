@@ -1,5 +1,9 @@
 <p align="center">
-<img src="https://user-images.githubusercontent.com/883989/49755957-17ec0980-fcc2-11e8-9e04-0339714f979b.png">
+<img height="90px" alt="drip" src="https://user-images.githubusercontent.com/883989/50478538-685da980-09da-11e9-92b3-6b2351dfd60e.png">
+</p>
+
+<p align="center">
+<img height="90px" alt="laravel" src="https://user-images.githubusercontent.com/883989/50478539-685da980-09da-11e9-8251-18003e023ac9.png">
 </p>
 
 <h6 align="center">
@@ -55,10 +59,10 @@ For usage, please refer to the Drip PHP package documentation, located [here](ht
 Use **``namespace Glorand\Drip\Laravel\DripContract``** in your controller or service constructor
 
 ### Facade
-Just use the Laravel facade alias **``Drip::``** instead of the native call **``$drip->``**.
+Just use the Laravel facade alias **``Drip::``** instead of the native call [**``$drip->``**](https://github.com/glorand/drip).
 
 ### Helper
-Just use the helper function **``drip()``** instead of the native call **``$drip->``**.
+Just use the helper function **``drip()``** instead of the native call [**``$drip->``**](https://github.com/glorand/drip).
 
 ## Changelog <a name="changelog"></a>
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.

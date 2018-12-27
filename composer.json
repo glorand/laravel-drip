@@ -1,12 +1,20 @@
 {
     "name": "glorand/laravel-drip",
     "description": "A Laravel wrapper for Drip's REST API v2.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lorand Gombos",
+            "email": "gombos.lorand@gmail.com"
+        }
+    ],
     "type": "laravel-package",
     "keywords": [
         "glorand",
         "laravel-drip",
         "drip",
-        "drip-php"
+        "drip-php",
+        "drip-api"
     ],
     "require": {
         "php": ">=7.1.3",
@@ -14,7 +22,8 @@
         "glorand/drip-php": "^1.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^7.0"
+        "phpunit/phpunit": "^7.0",
+        "phpstan/phpstan": "^0.10.6"
     },
     "autoload": {
         "psr-4": {
@@ -29,14 +38,6 @@
             "Glorand\\Drip\\Laravel\\Tests\\": "tests"
         }
     },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Lorand Gombos",
-            "email": "gombos.lorand@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
@@ -46,5 +47,9 @@
                 "Drip": "Glorand\\Drip\\Laravel\\Facades\\Drip"
             }
         }
+    },
+    "minimum-stability": "dev",
+    "scripts": {
+        "stan": "vendor/bin/phpstan analyse src --level=7"
     }
 }
