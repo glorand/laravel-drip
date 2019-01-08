@@ -10,6 +10,24 @@
     Laravel 5.7 integration for <a href='https://github.com/glorand/drip'>Drip PHP</a> package
 </h6>
 
+<p align="center">
+<a href="https://packagist.org/packages/glorand/laravel-drip">
+ <img src="https://poser.pugx.org/glorand/laravel-drip/v/stable" alt="Latest Stable Version">
+</a>
+ <a href="https://travis-ci.com/glorand/laravel-drip">
+ <img src="https://travis-ci.com/glorand/laravel-drip.svg?branch=master" alt="Build Status">
+ </a>
+ <a href="LICENSE.md">
+ <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat" alt="Software License">
+ </a>
+ <a href="https://github.styleci.io/repos/162723552">
+ <img src="https://github.styleci.io/repos/162723552/shield?branch=master" alt="StyleCI">
+ </a>
+ <a href="https://scrutinizer-ci.com/g/glorand/laravel-drip/">
+ <img src="https://scrutinizer-ci.com/g/glorand/laravel-drip/badges/quality-score.png?b=master" alt="Scrutinizer Code Quality">
+ </a>
+</p>
+
 The package requires PHP 7.1.3+ and follows the FIG standards PSR-1, PSR-2 and PSR-4 
 to ensure a high level of interoperability between shared PHP.
 
